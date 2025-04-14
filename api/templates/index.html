@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recipe Recommendation System</title>
+  <style>
+    /* General Styles */
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f4f4f9;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 2.5rem;
+      margin-top: 50px;
+      color: #2c3e50;
+    }
+
+    .container {
+      width: 80%;
+      max-width: 600px;
+      margin: 30px auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .form-group {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 20px;
+    }
+
+    .form-group label {
+      font-size: 1.1rem;
+      margin-bottom: 5px;
+      color: #2c3e50;
+    }
+
+    .form-group input {
+      padding: 12px;
+      font-size: 1rem;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      width: 100%;
+      box-sizing: border-box;
+      transition: border 0.3s ease;
+    }
+
+    .form-group input:focus {
+      border: 1px solid #16A34A;
+      outline: none;
+    }
+
+    .form-group button {
+      padding: 12px;
+      font-size: 1.2rem;
+      background-color: #16A34A;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .form-group button:hover {
+      background-color: #16A34A;
+    }
+
+    .form-group button:active {
+      transform: scale(0.98);
+    }
+
+    .demo-button {
+      background-color: #1d4ed8;
+      margin-top: -10px;
+    }
+
+    .demo-button:hover {
+      background-color: #2563eb;
+    }
+
+    h4 {
+      text-align: center; /* Centers the text */
+      font-style: italic; /* Italicizes the text */
+    }
+  </style>
+</head>
+<body>
+
+  <h1>🍽️ Recipe Recommendation System</h1>
+  <h4>Web Scrapper</h4>
+
+  <div class="container">
+    <form action="/recipes" method="post">
+      <div class="form-group">
+        <label for="ingredients">Ingredients (comma separated)</label>
+        <input type="text" id="ingredients" name="ingredients" placeholder="e.g., chicken, garlic, onion" required>
+      </div>
+      <div class="form-group">
+        <button type="submit">Find Recipes</button>
+      </div>
+    </form>
+  </div>
+
+</body>
+</html>
