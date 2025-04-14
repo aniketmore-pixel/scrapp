@@ -59,5 +59,3 @@ def recipes():
 
     return render_template('results.html', recipes=recipes_data)
 
-if __name__ == '__main__':
-    app.run(debug=True)
