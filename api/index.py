@@ -57,3 +57,4 @@ def recipes():
 
     return render_template('results.html', recipes=recipes_data)
 
+app = app
