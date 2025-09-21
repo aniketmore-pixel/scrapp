@@ -5,7 +5,9 @@ A **web-based recipe recommendation system** that lets users discover top recipe
 ---
 
 ## 🖼️ Screenshots
-
+> <img width="960" height="540" alt="image" src="https://github.com/user-attachments/assets/b381d8a7-0d34-4e70-868c-bd0282c95653" />
+> <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/be2b5208-6f9d-48c7-89c4-68f130adb2c5" />
+> <img width="960" height="540" alt="image" src="https://github.com/user-attachments/assets/7028aacc-4d9b-444b-b048-3eec358a4a6a" />
 
 ---
 
