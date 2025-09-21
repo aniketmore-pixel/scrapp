@@ -106,7 +106,7 @@ vercel
 ## 💡 Future Improvements
 
 - Add **pagination** to show more recipes.  
-- Integrate **user accounts** to save favorite recipes.  
+- Integrate **user accounts** t save favorite recipes.  
 - Add **filters** (dietary preferences, cuisine, cook time).  
 - Enhance UI with **Bootstrap / Tailwind CSS** for a modern look.  
 
