@@ -4,6 +4,11 @@ A **web-based recipe recommendation system** that lets users discover top recipe
 
 ---
 
+## 🖼️ Screenshots
+
+
+---
+
 ## 📌 Features
 
 - Input ingredients (comma-separated) to search for recipes.
@@ -25,7 +30,6 @@ A **web-based recipe recommendation system** that lets users discover top recipe
 - **Requests** – HTTP requests to scrape web pages
 - **BeautifulSoup4** – Parsing HTML for recipe data
 - **HTML / CSS** – Responsive front-end design
-- **Vercel** – Deployment platform
 
 ---
 
@@ -88,14 +92,6 @@ vercel
 
 ---
 
-## 🖼️ Screenshots
-
-*You can add screenshots here of:*
-
-- Homepage with ingredient input form
-- Top 5 recipes display
-
----
 
 ## ⚠️ Notes
 
@@ -112,13 +108,4 @@ vercel
 - Add **filters** (dietary preferences, cuisine, cook time).  
 - Enhance UI with **Bootstrap / Tailwind CSS** for a modern look.  
 
----
-
-## 📄 License
-
-This project is open-source under the [MIT License](LICENSE).
-
----
-
-Made with ❤️ by [Your Name]
 
