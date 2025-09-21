@@ -4,12 +4,6 @@ A **web-based recipe recommendation system** that lets users discover top recipe
 
 ---
 
-## 🔹 GitHub Repo Description (one-liner)
-
-Find the best recipes based on ingredients you have — web scraper powered recipe recommendations.
-
----
-
 ## 📌 Features
 
 - Input ingredients (comma-separated) to search for recipes.
